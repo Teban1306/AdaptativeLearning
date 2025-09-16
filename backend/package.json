@@ -16,12 +16,15 @@
   "dependencies": {
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/mongoose": "^11.0.3",
     "@nestjs/platform-express": "^11.0.1",
+    "@prisma/client": "^6.16.2",
+    "mongoose": "^8.18.1",
+    "prisma": "^6.16.2",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.2.0"
   },
   "devDependencies": {
-    "@nestjs/testing": "^11.0.1",
     "@babel/core": "7.28.0",
     "@babel/node": "7.28.0",
     "@babel/plugin-proposal-decorators": "7.28.0",
@@ -29,6 +32,8 @@
     "@babel/preset-env": "7.28.0",
     "@babel/register": "7.27.1",
     "@babel/runtime": "7.28.2",
+    "@nestjs/testing": "^11.0.1",
+    "@types/mongoose": "^5.11.96",
     "jest": "30.0.5",
     "nodemon": "3.1.10",
     "prettier": "3.6.2",
